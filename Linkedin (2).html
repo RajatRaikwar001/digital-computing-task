@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f2f3;
+            margin: 0;
+            padding: 0;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 30px;
+            background-color: white;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .login-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .login-logo img {
+            width: 200px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-button {
+            width: 100%;
+            padding: 12px;
+            background-color: #0077b5;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .login-button:disabled {
+            background-color: #ddd;
+        }
+        .forgot-password {
+            text-align: right;
+            font-size: 14px;
+        }
+        .sign-up {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+        .sign-up a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-logo">
+            <img src="LinkedIn-logo.png" alt="LinkedIn Logo">
+        </div>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Email or Phone" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="login-button">Sign In</button>
+            </div>
+        </form>
+        <div class="forgot-password">
+            <a href="#">Forgot password?</a>
+        </div>
+        <div class="sign-up">
+            <p>New to LinkedIn? <a href="#">Join now</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
